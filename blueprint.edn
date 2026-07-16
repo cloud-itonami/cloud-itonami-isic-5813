@@ -1,0 +1,12 @@
+[{:itonami.blueprint/id "cloud-itonami-isic-5813"
+  :itonami.blueprint/name "Publishing of newspapers, journals and periodicals"
+  :itonami.blueprint/isic-rev4 "5813"
+  :itonami.blueprint/domain :services/periodical-publishing
+  :itonami.blueprint/license "AGPL-3.0-or-later"
+  :itonami.blueprint/social-impact [:editorial-integrity :sourcing-integrity :press-freedom :timely-distribution]
+  :itonami.blueprint/governor :pressops-governor
+  :itonami.blueprint/robotics false
+  :itonami.blueprint/required-technologies [:identity :forms :dmn :bpmn :audit-ledger]
+  :itonami.blueprint/status :public-oss
+  :itonami.blueprint/maturity :implemented
+  :db/id -1}]
