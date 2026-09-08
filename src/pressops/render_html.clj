@@ -5,7 +5,7 @@
   pressops.store). No invented numbers, no timestamps, byte-identical
   across reruns."
   (:require [jp-go-dds.skin]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [pressops.store :as store]
             [pressops.operation :as op]
             [pressops.phase :as phase]
