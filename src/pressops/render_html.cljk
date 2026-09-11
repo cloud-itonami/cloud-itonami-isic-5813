@@ -26,7 +26,7 @@
   directly from `pressops.store/demo-data` and `pressops.governor`'s
   actual rules (this repo's own `pressops.sim` was run first and found
   trustworthy -- its ids/ops match the real seed data and rules exactly,
-  confirmed by executing `clojure -M:dev:run` and cross-checking every
+  confirmed by executing `kbb -M:dev:run` and cross-checking every
   disposition against store.cljc/governor.cljc, so this mirrors the same
   scenario rather than reusing sim.cljc's -main directly, to keep this
   namespace's demo self-contained):
