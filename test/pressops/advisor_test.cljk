@@ -1,6 +1,6 @@
 (ns pressops.advisor-test
   "Unit tests of `pressops.advisor` proposal generation."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [pressops.advisor :as adv]
             [pressops.governor :as gov]
             [pressops.store :as store]))

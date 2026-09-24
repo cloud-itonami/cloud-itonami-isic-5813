@@ -1,6 +1,6 @@
 (ns pressops.phase-test
   "Unit tests of `pressops.phase` rollout logic."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [pressops.phase :as phase]))
 
 (def clean-verdict {:hard? false :escalate? false})
