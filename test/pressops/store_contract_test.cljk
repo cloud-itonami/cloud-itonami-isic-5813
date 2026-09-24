@@ -1,6 +1,6 @@
 (ns pressops.store-contract-test
   "Contract tests for `pressops.store/Store` protocol."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [pressops.store :as store]))
 
 (deftest mem-store-publication-lookup
